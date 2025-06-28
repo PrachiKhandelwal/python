@@ -80,3 +80,9 @@ tech_str=', '.join(tech)
 print(tech_str)
 retrieved_tech=tech_str.split(', ')
 print(retrieved_tech)
+
+subjects_1=['history','math','civics','chemistry']
+subjects_2=subjects_1
+
+subjects_1[0]='physics' #modifies both subjects_1 as well as subjects_2 value
+print(f'{subjects_1}, {subjects_2}')
