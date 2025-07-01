@@ -1,0 +1,1 @@
+random_str = 'this is a random string'
