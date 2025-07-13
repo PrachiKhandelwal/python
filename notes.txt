@@ -1,0 +1,6 @@
+-> Virtual  environment is a way to have a specific environment for each project that we build
+-> Before pipenv, we would use pip for package management and use virtual env to  handle virtual environment
+
+STEPS:
+
+1. pip install pipenv
