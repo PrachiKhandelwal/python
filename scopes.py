@@ -51,10 +51,14 @@ y = 'global y'
 
 def getX():
     print(x)
-    global y
+    global y   # to modify global y variable  inside this function, we need to use global keyword
     y = 'local y'
     print(y)
 
 print(y)    
 getX()
 print(y) 
+
+
+# built-in scope: variables which aare built-in in python ,for example: min
+print(min([12,10,1,67,4])) 
